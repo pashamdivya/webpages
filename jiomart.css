@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    height: 70px;
+    background-color: #0078ad;
+    /* display: flex; */
+}
+#header1{
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    color: #fff;
+    /* border: 2px solid red; */
+    padding-top: 20px;
+}
+#header1>div+div{
+    /* border: 1px solid black; */
+    margin-left: 30px;
+    font-weight: 500;
+}
+#header1>div+div+div{
+    /* border: 2px solid rgb(140, 175, 140); */
+    display: flex;
+    width: 250px;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+#header1>div+div+div>img{
+    padding-bottom: 15px;
+    padding-right: 5px;
+}
+#header2{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 850px;
+    position: relative;
+    bottom: 50px;
+}
+.header1{
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.header1>input{
+    height: 100%;
+    border: none;
+    border-radius: 50px;
+    padding-left: 10px;
+    font-size: larger;
+}
+.header2{
+    margin-top: 10px;
+    margin-left: 25px;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+}
+.header3{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.header3>button{
+    background-color: #0078ad;
+    border-radius: 50px;
+    border: none;
+}
+.header3>button>span{
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    top: 3px;
+    padding-left: 5px;
+    font-size: 15px;
+    
+}
+nav>div{
+    display: flex;
+    gap: 30px;
+    background-color: #0c5273;
+    padding-left: 150px;
+    color: #fff;
+    height: 40px;
+    padding-top: 10px;
+    /* font-family: ; */
+    font-weight: 500;
+    font-size: 14px;
+}
+#carouselExampleIndicators{
+    margin-top: 50px;
+}
+#section1{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#section1>img{
+    border-radius: 5px;
+    width:100%;
+}
+#section2>div>p{
+    padding-left: 50px;
+}
+.d-block1{
+    width: 500px;
+}
+#carousel-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+#Div{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+#div{
+    font-weight: 800;
+}
+#div1{
+    font-size:xx-large;
+    font-weight: 900;
+}
+#p{
+    margin-bottom: 0px;
+}
+#carouselExampleRide{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card{
+    margin-left: 100px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    margin-bottom: 20px;
+    border: none;
+}
+.card>img{
+    border: none;
+}
+#carouselExampleInterval{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#image{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+#span{
+    color: #b5b5b5 !important;
+    text-decoration:line-through;
+    
+}
+#span1{
+    background-color:#e5f7ee ;
+    color: #03753c;
+    padding: 0px;
+    font-weight: 700;
+    font-size: small;
+}
+.span{
+    margin-top: 10px;
+    height: 30px;
+    color: #0c5273;
+    font-weight: 700;
+    display: flex;
+    border-radius: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-width: 1px;
+    background-color: #fff;
+}
+#foot1{
+    /* height: 400px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* border: 1px solid; */
+    position: relative;
+    top: 10 em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#foot2{
+    /* height: 400px; */
+    position: relative;
+    background-color: #f5f5f5;
+    display: flex;
+    font-size:12px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: space-between;
+}

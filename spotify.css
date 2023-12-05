@@ -1,0 +1,221 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  header{
+    background-color: rgba(0,0,0,.5);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position:fixed;
+    z-index: 10;
+  }
+  header>div>i{
+    color: aliceblue;
+  }
+  header>div{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 300px;
+    display: flex;
+    gap: 20px;
+  }
+  #header{
+    margin-left: 920px;
+    margin-bottom: 10px;
+  }
+  #header>button{
+    border-radius: 50px;
+    border: none;
+    width: 80px;
+    font-weight: bolder;
+    color: #fff;
+    background-color: black;
+  }
+  #header>button+button{
+    background-color: #fff;
+    color: black;
+  }
+  nav{
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 100%;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding-top: 15px;
+    position: fixed;
+    z-index: 10;
+  }
+  nav>div{
+    /* border: 2px solid yellow; */
+    display: flex;
+    margin-top: 15px;
+  }
+  nav>div>i{
+    font-size: 45px;
+  }
+  nav>div>h1{
+    padding-top: 10px;
+    font-weight: 600;
+    padding-left: 5px;
+  }
+  #nav2{
+    margin-top: 40px;
+  }
+  nav>div+div>i{
+    font-size:x-large;
+  }
+  #nav2>p{
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+  }
+  #nav3{
+    margin-top: 20px;
+  }
+  #nav3>p{
+    padding-top: 5px;
+    padding-left: 15px;
+  }
+  #nav4>p{
+    padding-top: 5px;
+    padding-left: 15px;
+  }
+  #nav5{
+    margin-top: 50px;
+  }
+  #nav5>i{
+    font-size: 30px;
+  }
+  #nav5>p{
+    padding-top: 5px;
+    padding-left: 15px;
+  }
+  #nav6>svg{
+    fill:#fff;
+    background-color:rgb(69, 90, 143);
+    border-radius: 2px;
+    height: 22px;
+    width: 22px;
+    padding-top: 6px;
+    padding-left: 6px;
+  }
+  #nav6>p{
+    padding-top: 5px;
+    padding-left: 15px;
+  }
+  #nav7{
+    margin-top: 200px;
+  }
+  .nav7{
+    font-size: 12px;
+    display: flex;
+    gap: 15px;
+  }
+  .nav8{
+    border-radius: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    padding-left: 6px;
+    padding-top: 6px;
+    margin-top: 30px;
+    gap: 2px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+  section{
+    background-color: #121212;
+    height: 100%;
+    width: 1300px;
+    padding-left: 50px;
+    margin-left: 220px;
+    padding-top: 80px;
+    /* position: fixed; */
+  }
+  #section1{
+    color: #fff;
+  }
+  #section2{
+    margin-top: 30px;
+    color: #fff;
+  }
+  #section3{
+    color: #fff;
+    margin-top: 30px;
+  }
+  #section4{
+    color: #fff;
+    margin-top: 30px;
+  }
+  .section1{
+    display: flex;
+    gap: 10px;
+  }
+  .section2{
+    display: flex;
+    gap: 10px;
+  }
+  .section3{
+    display: flex;
+    gap: 10px;
+  }
+  .section4{
+    display: flex;
+    gap: 10px;
+  }
+  .card{
+    margin-top: 20px;
+    width: 170px;
+    background-color: #181818;
+    height: 250px;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+  .card>img{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 10px;
+    /* border-radius: 5px; */
+  }
+  .card>p{
+    padding-top: 10px;
+  }
+  footer{
+    margin-top: 100px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
+  }
+  #footer{
+    display: flex;
+    gap: 100px;
+  }
+  #fotter2{
+    display: flex;
+    gap: 20px;
+    
+  }
+  .fotter2{
+    position: relative;
+    left: 400px;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    border-radius: 100%;
+    background-color:#181818;
+  }
+  .fotter2>i{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .fotter3{
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
