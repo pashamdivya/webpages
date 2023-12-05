@@ -1,0 +1,357 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+#nav1{
+    /* border:2px solid red; */
+    height:90px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #0f0617;
+    color:white;
+    position: fixed;
+    z-index: 1111;
+}
+#search{
+    transform: translateX(30px);
+    z-index: 1111;
+}
+#header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap:30px;
+}
+#header1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:23px;
+}
+.demo{
+    margin-top: 10px;
+}
+#p2{
+    
+    font-size: 25px;
+    transform: translateY(8px);
+    transform: translateX(-20px);
+    margin-top: 12px;
+}
+#p3{
+    transform: translateX(-45px);
+}
+#btn{
+    transform: translateX(-45px);
+    height: 35px;
+    width:60px;
+    border-radius: 10px;
+    background-color: #1a0c27;
+    color:white;
+    border:1px solid #fff;
+    font-size:12px;
+}
+#btn:hover{
+    background-color: white;
+}
+#btn1{
+    transform: translateX(-45px);
+    height:35px;
+    width:100px;
+    border-radius:10px;
+    background-color: #8230c6;
+    color:white;
+    border: none;
+    
+}
+#btn1:hover{
+    background-color: #8230c6;
+}
+#bar{
+   transform: translateX(-40px);
+   margin-top: 15px;
+}
+#carousel{
+    /* border:2px solid greenyellow; */
+    /* position: absolute; */
+    /* display:flex; 
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+    transform: translateY(93px);
+}
+#carousel2{
+    position: absolute;
+    top:540px;
+    width:1250px;
+    left:50px;
+}
+#h11{
+    position: absolute;
+    top:880px;
+    font-size: 24px;
+    left:50px;
+    color:#fff
+}
+#demo1{
+    background-color: black;
+}
+#div1{
+    display:flex;
+    justify-content: space-around;
+}
+ .card-wrapper{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    gap:20px;
+}
+#card1{
+  /* border:2px solid greenyellow; */
+  height:320px;
+  width:100%;
+  position:absolute;
+  top:940px;
+}
+#h22{
+    position:absolute;
+    top:1280px;
+    font-size: 25px;
+    left:50px;
+    color:#fff;
+}
+#card2{
+    /* border:2px solid greenyellow; */
+    height:320px;
+    width:100%;
+    position: absolute;
+    top:1350px
+}
+#h33{
+    position:absolute;
+    top:1690px;
+    font-size: 24px;
+    left:50px;
+    color:#fff;
+}
+#card3{
+    /* border:2px solid greenyellow; */
+    height: 320px;
+    width:100%;
+    position:absolute;
+    top:1750px;
+}
+#h44{
+    position:absolute;
+    top:1930px;
+    font-size: 24px;
+    left:50px;
+    color:#fff
+}
+#card4{
+    /* border:2px solid greenyellow; */
+    height:320px;
+    width:100%;
+    position:absolute;
+    top:2000px;
+}
+#h55{
+    position: absolute;
+    top:2180px;
+    font-size: 24px;
+    left:50px;
+    color:#fff;
+}
+#card5{
+    /* border:2px solid greenyellow; */
+    height:300px;
+    width:100%;
+    position:absolute;
+    top:2250px;
+}
+#h66{
+    position:absolute;
+    top:2590px;
+    font-size: 25px;
+    left:50px;
+    color:#fff;
+}
+#card6{
+    /* border:2px solid greenyellow; */
+    height:300px;
+    width:100%;
+    position:absolute;
+    top:2665px;
+}
+#h77{
+    position:absolute;
+    top:3010px;
+    font-size: 25px;
+    left:50px;
+    color:#fff;
+}
+#card7{
+    /* border:2px solid greenyellow; */
+    height:320px;
+    width:100%;
+    position:absolute;
+    top:3090px;
+}
+#h88{
+    position:absolute;
+    font-size: 25px;
+    margin-top: 50px;
+    left:50px;
+    color:#fff;
+}
+#card8{
+    /* border: 2px solid greenyellow; */
+    height:320px;
+    width:100%;
+    position: absolute;
+    margin-top: 120px;
+}
+#h99{
+    position:absolute;
+    font-size: 25px;
+    margin-top: 310px;
+    left:50px;
+    color:#fff;
+}
+#card9{
+    position:absolute;
+    /* border:2px solid greenyellow; */
+    height:320px;
+    width:100%;
+    margin-top:390px ;
+}
+#h10{
+    position:absolute;
+    /* border:2px solid greenyellow; */
+    font-size: 25px;
+    left:50px;
+    color:#fff;
+    margin-top: 750px;
+}
+#card10{
+    /* border: 2px solid greenyellow; */
+    position:absolute;
+    height:320px;
+    width:100%;
+    margin-top: 830px;
+}
+#h12{
+    position:absolute;
+    font-size:25px;
+    left:50px;
+    color:#fff;
+    margin-top: 1180px;
+}
+#card11{
+    /* border: 2px solid greenyellow; */
+    position:absolute;
+    height:320px;
+    width:100%;
+    margin-top: 1260px;
+}
+#h13{
+   /* border: 2px solid greenyellow; */
+   position:absolute;
+   height:320px;
+   width:100%;
+   margin-top: 1620px; 
+}
+#h14{
+    position:absolute;
+    font-size:25px;
+    left:50px;
+    color:#fff;
+    margin-top: 1970px; 
+}
+#card14{
+    /* border: 2px solid greenyellow; */
+    position:absolute;
+    height:320px;
+    width:100%;
+    margin-top: 2045px;
+}
+#h15{
+    position:absolute;
+    font-size:25px;
+    left:50px;
+    color:#fff;
+    margin-top: 2405px; 
+}
+#card15{
+    /* border: 2px solid greenyellow; */
+    position:absolute;
+    height:320px;
+    width:100%;
+    margin-top: 2485px;
+}
+#h16{
+    position:absolute;
+    width:100%;
+    border:1px solid  hsla(0,0%,100%,.05);
+    margin-top:2810px ;
+}
+#card16{
+    position:absolute;
+    /* border: 2px solid greenyellow; */
+    position:absolute;
+    height:600px;
+    width:100%;
+    margin-top: 2830px;
+}
+#con{
+    display:flex;
+    margin-top: 20px;
+    margin-left: 90px;
+    gap:20px
+}
+#con1{
+    display:flex;
+    gap:20px;
+    /* justify-content: flex-end; */
+    position: absolute;
+    left:1010px;
+    color:#fff;
+    font-size: 14px;
+}
+#con2{
+    display:flex;
+    gap:25px;
+    color: #f1d9d9;
+    position: absolute;
+    margin-top: 50px;
+    left:90px;
+}
+#ol1{
+    position:absolute;
+    margin-top: 130px;
+    margin-left: 90px;
+}
+#ol2{
+    position:absolute;
+    margin-top: 130px;
+    margin-left: 300px;
+}
+#ol3{
+    position:absolute;
+    margin-top: 130px;
+    margin-left: 510px; 
+}
+#ol4{
+    position:absolute;
+    margin-top: 130px;
+    margin-left: 730px; 
+}
+#ol5{
+    position:absolute;
+    margin-top: 130px;
+    margin-left: 950px; 
+}
+
